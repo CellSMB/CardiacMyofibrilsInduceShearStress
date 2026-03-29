@@ -37,12 +37,12 @@ Content:
     File Name: 
         _plotStress.py
     Description:
-        functions requires for plotting stress output and simulation values
+        functions required for plotting stress output and simulation values
 
     File Name: 
         _rawMorphologicalStats.py
     Description: 
-        calculates and outputs the key morpholigcal data requires for simulations
+        calculates and outputs the key morpholigcal data required for simulations
 
     File Name: 
         _refTest.py
