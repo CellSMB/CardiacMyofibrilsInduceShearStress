@@ -1,3 +1,4 @@
+This repository contains software to analyse the the organisation of myofibrils relative to z-discs. The code was used for the npj Systems Biology and Applications publication titled "Cardiac myofibrils induce shear stress".
 The folder compiles all the relevant code for:
 
 To run simulation
