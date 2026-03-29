@@ -83,6 +83,11 @@ Content:
         _bp
     Description:
         .bp paraview file storage
+        Instructions: 
+            Load required folder into Paraview by clicking "Open" in top left.
+            Then select folder (i.e. "_SIG") and open.
+            Click the blue "Apply" button then change "solid colour" to required visual (i.e. "S - Cauchy Stress [kPa]").
+            Then change component from "Magnitude" to whichever value interseted in (i.e. "0" is sig_xx, "1" is sig_xy).
 
     Folder Name: 
         _csv
