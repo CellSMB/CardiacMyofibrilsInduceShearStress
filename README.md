@@ -12,7 +12,7 @@ To run simulation
     4.1) scan to bottom of script to enter "tests = ["test"]" and "r = 800" as required for
             test case and refinement level required. 
     4.2) "test" will provide the unaxial control, "0" or "4" regions have been provided for
-            simulation as well
+            simulation as well. For other tests please see the link below and download the region of interest.
 5) visualisations will be saved in the provided "_bp/" folder for open in Paraview
 6) for plotting and other data please see relevant script below.
 
