@@ -6,15 +6,28 @@ The folder compiles all the relevant code for:
 To run simulation
 
 1) have conda, miniconda, or Anaconda installed.
-2) run "conda env create --name envname --file=environment.yaml" with .yml file provided
+    
+2) run "conda env create --name envname --file=environment.yaml" with ".yml" file provided
+   
 3) run "conda activate envname"
+   
 4) open _Sim.py
     4.1) scan to bottom of script to enter "tests = ["test"]" and "r = 800" as required for
-            test case and refinement level required. 
+            test case and refinement level required.
+            "r = 800" refers to the .msh file used. This is a mesh file from Gmesh.
+    
     4.2) "test" will provide the unaxial control, "0" or "4" regions have been provided for
-            simulation as well. For other tests please see the link below and download the region of interest.
-5) visualisations will be saved in the provided "_bp/" folder for open in Paraview
-6) for plotting and other data please see relevant script below.
+            simulation as well. These require local storage of ".npy" files in the "_npy" folder.
+            For other tests please see the link below and download the region of interest.
+            Then palce this .npy into the "_npy" folder.
+   
+6) visualisations will be saved in the provided "_bp/" folder for open in Paraview
+    6.1) Load required folder into Paraview by clicking "Open" in top left.
+            Then select folder (i.e. "_SIG") and open.
+            Click the blue "Apply" button then change "solid colour" to required visual (i.e. "S - Cauchy Stress [kPa]").
+            Then change component from "Magnitude" to whichever value interseted in (i.e. "0" is sig_xx, "1" is sig_xy).
+
+7) for plotting and other data please see relevant script below (i.e. _plotStress.py).
 
 Segmentation data can be viewed here: https://doi.org/10.26188/31883983
 
@@ -85,11 +98,6 @@ Content:
         _bp
     Description:
         .bp paraview file storage
-        Instructions: 
-            Load required folder into Paraview by clicking "Open" in top left.
-            Then select folder (i.e. "_SIG") and open.
-            Click the blue "Apply" button then change "solid colour" to required visual (i.e. "S - Cauchy Stress [kPa]").
-            Then change component from "Magnitude" to whichever value interseted in (i.e. "0" is sig_xx, "1" is sig_xy).
 
     Folder Name: 
         _csv
