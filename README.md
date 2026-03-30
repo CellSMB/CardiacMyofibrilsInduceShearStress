@@ -16,6 +16,8 @@ To run simulation
 5) visualisations will be saved in the provided "_bp/" folder for open in Paraview
 6) for plotting and other data please see relevant script below.
 
+Segmentation data can be viewed here: https://doi.org/10.26188/31883983
+
 Content:
 
     File Name: 
